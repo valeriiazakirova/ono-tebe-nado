@@ -130,11 +130,12 @@ span {
 .lots {
   margin-top: 179px;
   margin-bottom: 146px;
-  max-height: 692px;
+  min-height: 692px;
 }
 .lots__card-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   min-height: 100%;
   flex-grow: 1;
