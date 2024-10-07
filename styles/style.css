@@ -64,12 +64,7 @@ span {
   max-width: 240.52px;
   line-height: 24.3px;
 }
-.phone {
-  text-decoration: none;
-  text-decoration: underline;
-  text-underline-position: under;
-}
-.mail {
+.phone_mail {
   text-decoration: none;
   text-decoration: underline;
   text-underline-position: under;
@@ -177,6 +172,7 @@ span {
   flex-direction: column;
   margin-top: 27px;
   margin-bottom: 30px;
+  color: #fff;
 }
 .card-link {
   text-decoration: none;
@@ -189,7 +185,6 @@ span {
   font-size: 22px;
   text-transform: uppercase;
   text-decoration: underline;
-  color: #fff;
   padding-top: 51px;
   padding-left: 40px;
   padding-right: 40px;
@@ -198,7 +193,6 @@ span {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
-  color: #fff;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 48px;
@@ -212,7 +206,6 @@ span {
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
   background-position: 45%;
   background-size: 200%;
   margin-left: 24px;
@@ -220,10 +213,16 @@ span {
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
+  background-position: 45%;
+  background-size: 200%;
+  margin-left: 24px;
 }
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
+  background-position: 45%;
+  background-size: 200%;
+  margin-left: 24px;
 }
 .about {
   height: 595px;
