@@ -64,7 +64,7 @@ span {
 .cover {
   background-image: url(../images/cover.jpg);
   color: #fff;
-  height: min-content;
+  height: 757px;
   background-size: 130% auto;
   background-repeat: no-repeat;
   background-position: 57%;
