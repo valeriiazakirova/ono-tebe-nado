@@ -27,8 +27,6 @@ span {
   font-size: 18px;
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
-}
-.header__menu {
   text-decoration: none;
 }
 .header__links-list {
@@ -38,13 +36,9 @@ span {
   gap: 32px;
   padding-left: 26.52px;
 }
-.header__links-list-item_no-bullit {
-  text-decoration: none;
-}
 .header__links-list-item {
   list-style: circle;
   gap: 8px;
-  text-decoration: none;
   text-decoration: underline;
   text-underline-position: under;
 }
@@ -55,7 +49,6 @@ span {
   width: 148px;
   height: 105px;
 }
-
 .header_address {
   margin-right: 25px;
   justify-self: right;
@@ -65,7 +58,6 @@ span {
   line-height: 24.3px;
 }
 .phone_mail {
-  text-decoration: none;
   text-decoration: underline;
   text-underline-position: under;
 }
