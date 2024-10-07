@@ -267,7 +267,11 @@ span {
 .footer {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 88px;
+  margin-bottom: 88px;
+  min-height: 98px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 .footer__menu {
   list-style: none;
