@@ -128,8 +128,9 @@ span {
   z-index: 2;
 }
 .lots {
-  padding-top: 179px;
+  margin-top: 179px;
   margin-bottom: 146px;
+  max-height: 692px;
 }
 .lots__card-list {
   list-style: none;
@@ -200,21 +201,18 @@ span {
   background-repeat: no-repeat;
   background-position: 45%;
   background-size: 200%;
-  margin-left: 24px;
 }
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: 45%;
   background-size: 200%;
-  margin-left: 24px;
 }
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: 45%;
   background-size: 200%;
-  margin-left: 24px;
 }
 .about {
   height: 595px;
