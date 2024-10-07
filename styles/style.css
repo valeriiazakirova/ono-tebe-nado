@@ -282,7 +282,6 @@ span {
 }
 .footer__menu-list-item {
   list-style: none;
-  text-decoration: none;
   text-decoration: underline;
   text-underline-position: under;
 }
