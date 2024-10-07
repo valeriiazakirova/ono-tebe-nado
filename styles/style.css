@@ -21,9 +21,12 @@ span {
   padding-right: 24px;
   padding-bottom: 92px;
   padding-top: 92px;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
-  align-items: center;
 
 }
 .header__menu {
@@ -41,6 +44,7 @@ span {
 }
 .header__links-list-item {
   list-style: circle;
+  gap: 8px;
   text-decoration: none;
     text-decoration: underline;
   text-underline-position: under;
@@ -49,13 +53,18 @@ span {
   width: min-content;
 }
 .header__logo-image {
-  width: 129.11px;
+  width: 148px/*129.11px*/;
+  height: 105px/*104.65px*/;
+  /*margin: 1.16px 9.86px 0.81px 9.03px;*/
 }
-.address {
-  justify-self: end;
+
+.header_address {
+  margin-right: 25px;
+  justify-self: right;
   display: flex;
   flex-flow: column wrap;
-  max-width: 200px;
+  max-width: 240.52px;
+  line-height: 24.3px;
 }
 .phone{
   text-decoration: none;
@@ -311,9 +320,13 @@ justify-content: center;
     text-underline-position: under;
 
 }
-
-.footer__social-link {
-
+.footer_address {
+  display: flex;
+  flex-flow: column wrap;
+  text-wrap: wrap;
+  justify-self: left;
+  max-width: 200px;
+  line-height: 24.3px;
 }
 .footer__social-icon {
   height: 48px;
