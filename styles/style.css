@@ -202,6 +202,7 @@ span {
   background-repeat: no-repeat;
   background-position: 45%;
   background-size: 200%;
+  margin-left: 24px;
 }
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
@@ -266,8 +267,10 @@ span {
 }
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 88px;
+  margin-left: 50px;
+  margin-right: 50px;
   min-height: 98px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
